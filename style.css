@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./res/img/IMG_20210817_155522_957.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
