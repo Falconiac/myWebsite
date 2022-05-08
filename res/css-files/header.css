@@ -1,0 +1,89 @@
+header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/IMG_20210817_155522_957.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 25% 50% 25%;
+
+  justify-items: center;
+  align-self: center;
+
+  gap: 0px;
+}
+
+.profpic {
+  max-width: 12.5em;
+  border: 0.2em solid whitesmoke;
+  border-radius: 100%;
+  grid-row-start: 2;
+  grid-column-start: 1;
+
+  grid-row-end: 3;
+  grid-column-end: 2;
+}
+
+h1 {
+  margin: auto;
+  font-size: 2em;
+  text-decoration: underline;
+
+  grid-row-start: 1;
+  grid-column-start: 2;
+
+  grid-row-end: 2;
+  grid-column-end: 3;
+}
+
+h2 {
+  color: whitesmoke;
+  font-size: 1.5em;
+  grid-row-start: 2;
+  grid-column-start: 2;
+
+  grid-row-end: 3;
+  grid-column-end: 3;
+}
+
+nav {
+  grid-row-start: 3;
+  grid-column-start: 2;
+
+  grid-row-end: 4;
+  grid-column-end: 3;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-left: 3em;
+}
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+nav a :hover {
+  color: aqua;
+  text-decoration: underline;
+  transition-duration: 800ms;
+}
+
+.icon {
+  grid-row-start: 2;
+  grid-column-start: 3;
+
+  grid-row-end: 3;
+  grid-column-end: 4;
+  max-width: 10em;
+}
